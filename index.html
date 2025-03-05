@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Türkiye Turizm Hizmetleri - Turlar, Oteller ve Gezilecek Yerler
+    </title>
+    <meta
+      name="description"
+      content="Türkiye'nin en güzel yerlerini keşfedin. Özel turlar, lüks oteller ve unutulmaz deneyimler için hizmetinizdeyiz."
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- favicon  -->
+    <link
+      rel="shortcut icon"
+      href="img/free-icon-flight-4283062.png"
+      type="image/x-icon"
+    />
+    <!-- aos  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <div class="cookie-banner" id="cookieBanner">
+      <p>
+        Bu web sitesi deneyiminizi geliştirmek için çerezler kullanmaktadır.
+      </p>
+      <div class="cookie-buttons">
+        <button onclick="acceptCookies()">Kabul Et</button>
+        <a href="cookie-policy.html">Daha Fazla Bilgi</a>
+      </div>
+    </div>
+
+    <header>
+      <!-- nav  -->
+      <nav>
+        <div class="logo">
+          <h1>Türkiye Turizm</h1>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="active">Ana Sayfa</a>
+          <a href="privacy-policy.html">Gizlilik Politikası</a>
+          <a href="cookie-policy.html">Çerez Politikası</a>
+          <a href="contact.html">İletişim</a>
+        </div>
+        <div class="mobile-menu" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+      <!-- nav end -->
+    </header>
+
+    <main>
+      <section class="hero" data-aos="zoom-in-up">
+        <h1>Türkiye'nin Güzelliklerini Keşfedin</h1>
+        <p>
+          Profesyonel rehberler eşliğinde unutulmaz bir tatil deneyimi yaşayın
+        </p>
+      </section>
+
+      <section class="services">
+        <h2>Hizmetlerimiz</h2>
+        <div class="service-grid">
+          <!-- 1 -->
+          <div class="service-card" data-aos="fade-right">
+            <img
+              src="img/fatih-yurur-kNSREmtaGOE-unsplash.jpg"
+              alt="Kapadokya Turları"
+            />
+            <h3>Kapadokya Turları</h3>
+            <p>
+              Eşsiz peri bacaları, yeraltı şehirleri ve sıcak hava balonu
+              deneyimi ile Kapadokya'nın büyülü atmosferini keşfedin.
+              Profesyonel rehberlerimiz eşliğinde bölgenin tarihi ve kültürel
+              zenginliklerini yakından tanıyın.
+            </p>
+          </div>
+          <!-- 2 -->
+          <div class="service-card" data-aos="fade-up">
+            <img src="img/blog-1.jpg" alt="Pamukkale Turları" />
+            <h3>Pamukkale Turları</h3>
+            <p>
+              Dünyaca ünlü travertenleri, antik Hierapolis kenti ve şifalı
+              termal suları ile Pamukkale'de unutulmaz bir deneyim yaşayın.
+              Doğal güzelliklerin ve tarihin buluştuğu bu eşsiz destinasyonu
+              keşfedin.
+            </p>
+          </div>
+          <!-- 3 -->
+          <div class="service-card" data-aos="fade-left">
+            <img src="img/blog-2.jpg" alt="İstanbul Turları" />
+            <h3>İstanbul Turları</h3>
+            <p>
+              İki kıtayı birleştiren şehir İstanbul'un tarihi yarımadasını,
+              Boğaz'ını ve modern yüzünü keşfedin. Ayasofya, Topkapı Sarayı ve
+              Kapalıçarşı gibi ikonik mekanları uzman rehberlerimizle gezin.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="destinations">
+        <h2>Popüler Destinasyonlar</h2>
+        <div class="destination-grid">
+          <!-- 1 -->
+          <div class="destination-card" data-aos="fade-right">
+            <img src="img/blog_tow.jpg" alt="Antalya" />
+            <h3>Antalya</h3>
+            <p>
+              Turkuaz suları, altın kumsalları ve antik kentleriyle Akdeniz'in
+              incisi Antalya, yılın her mevsimi ziyaretçilerini büyülüyor.
+              Kaleiçi'nin dar sokakları, Düden Şelalesi ve Aspendos Antik
+              Tiyatrosu görülmeye değer yerler arasında.
+            </p>
+          </div>
+          <!-- 2 -->
+          <div class="destination-card" data-aos="fade-left">
+            <img src="img/blog_three.webp" alt="Efes" />
+            <h3>Efes</h3>
+            <p>
+              Antik dünyanın en iyi korunmuş kentlerinden biri olan Efes,
+              muhteşem mimarisi ve zengin tarihiyle ziyaretçilerini zamanda
+              yolculuğa çıkarıyor. Celsus Kütüphanesi, Büyük Tiyatro ve Artemis
+              Tapınağı mutlaka görülmeli.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="experiences">
+        <h2>Özel Deneyimler</h2>
+        <div class="experience-grid">
+          <!-- 1 -->
+          <div class="experience-card" data-aos="fade-up-right">
+            <img
+              src="img/axp-photography-lTP_btbBOA4-unsplash.jpg"
+              alt="Alışveriş Turları"
+            />
+            <h3>Gastronomi Turları</h3>
+            <p>
+              Türk mutfağının eşsiz lezzetlerini keşfedin. Yerel pazarlar, yemek
+              kursları ve özel restoran deneyimleri ile unutulmaz bir gastronomi
+              yolculuğuna çıkın.
+            </p>
+          </div>
+          <!-- 2 -->
+          <div class="experience-card" data-aos="fade-up-left">
+            <img src="img/blog_img.webp" alt="Türk Mutfağı" />
+            <h3>Alışveriş Turları</h3>
+            <p>
+              Kapalıçarşı'dan modern alışveriş merkezlerine, antika
+              dükkanlarından tasarım butiklerine kadar geniş bir yelpazede
+              alışveriş deneyimi yaşayın.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- about  -->
+      <section class="about">
+        <h2>Neden Bizi Seçmelisiniz?</h2>
+        <div class="features">
+          <!-- 1 -->
+          <div class="feature" data-aos="fade-down-right">
+            <h3>20+ Yıl Deneyim</h3>
+            <p>
+              Türkiye turizm sektöründe 20 yılı aşkın deneyimimizle,
+              misafirlerimize en kaliteli ve güvenilir hizmeti sunuyoruz.
+            </p>
+          </div>
+          <!-- 2 -->
+          <div class="feature" data-aos="fade-up-right">
+            <h3>Uzman Rehberler</h3>
+            <p>
+              Profesyonel, çok dil bilen ve alanında uzman rehberlerimizle size
+              en iyi deneyimi yaşatıyoruz.
+            </p>
+          </div>
+          <!-- 3 -->
+          <div class="feature" data-aos="fade-up-left">
+            <h3>Özel Programlar</h3>
+            <p>
+              Her müşterimizin özel isteklerine göre şekillendirdiğimiz
+              programlarla unutulmaz bir tatil deneyimi sunuyoruz.
+            </p>
+          </div>
+          <!-- 4 -->
+          <div class="feature" data-aos="fade-down-left">
+            <h3>7/24 Destek</h3>
+            <p>
+              Seyahatiniz boyunca 7/24 yanınızdayız. İhtiyacınız olan her an
+              bize ulaşabilirsiniz.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer  -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>İletişim</h3>
+          <p>Email: info@turkiyeturizm.com</p>
+          <p>Tel: +90 (212) 555 0123</p>
+          <p>Adres: İstiklal Caddesi No:123, Beyoğlu/İstanbul</p>
+        </div>
+        <div class="footer-section">
+          <h3>Hızlı Bağlantılar</h3>
+          <a href="privacy-policy.html">Gizlilik Politikası</a>
+          <a href="cookie-policy.html">Çerez Politikası</a>
+          <a href="contact.html">İletişim</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Türkiye Turizm. Tüm hakları saklıdır.</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <!-- aos js  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
